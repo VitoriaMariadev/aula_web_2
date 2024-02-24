@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.meio-dia {
+    background: rgb(0,88,219);
+    background: linear-gradient(180deg, rgba(0,88,219,1) 0%, rgba(210,250,252,1) 100%);
+}
+
+.meio-dia > .sol{
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    height: 50%;
+    background-color: rgb(255, 255, 0);
+    filter: blur(3px);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+}
+
+
+.noite{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(14,31,82,1) 100%);
+}
+
+.noite > .sol{
+    display: none;
+    width: 25%;
+    height: 50%;
+    background-color: rgb(255, 255, 0);
+    filter: blur(3px);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.noite > .estrela{
+    width: 0.5%;
+    height: 1%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    filter: blur(2px);
+}
+
+
+.noite > .um{
+    top: 30%;
+}
+
+.noite > .dois{
+    top: 50%;
+    left: 40%
+}
+
+.noite > .tres{
+    top: 10%;
+    left: 70%
+}
+
+.noite > .quatro{
+    top: 80%;
+    left: 90%
+}
+
+.noite > .cinco{
+    top: 20%;
+    left: 90%
+}
+
+.noite > .seis{
+    top: 46%;
+    left: 20%
+}
+
+.noite > .sete{
+    top: 10%;
+    left: 20%
+}
+
+.noite > .oito{
+    top: 90%;
+    left: 10%
+}
+
+.noite > .nove{
+    top: 60%;
+    left: 80%
+}
+
+.noite > .dez{
+    top: 70%;
+    left: 30%
+}
+
+.tarde{
+    background: rgb(33,126,230);
+    background: linear-gradient(180deg, rgba(33,126,230,1) 0%, rgba(73,101,184,1) 100%);
+}
+
+.tarde > .sol{
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    height: 50%;
+    background-color: rgb(255, 255, 0);
+    filter: blur(3px);
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.madrugada{
+    background: rgb(17,129,255);
+    background: linear-gradient(180deg, rgba(17,129,255,1) 0%, rgba(255,191,93,1) 100%);
+}
+
+.madrugada > .sol{
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    height: 50%;
+    background-color: rgb(255, 255, 0);
+    filter: blur(3px);
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+
+}
+
+.data{
+    position: absolute;
+    z-index: 2;
+}
+
+.horas{
+    position: absolute;
+    z-index: 2;
+}
+
+.inverno > .neve{
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    background-color: white;
+    z-index: 3;
+    animation: fall 3s infinite;
+}
+
+.inverno > .um{
+    right: 10%;
+    animation: fall 2.9s infinite;
+}
+
+.inverno > .dois{
+    right: 20%;
+    animation: fall 2.8s infinite;
+}
+
+.inverno > .tres{
+    right: 25%;
+    animation: fall 2.4s infinite;
+}
+
+.inverno > .quatro{
+    right: 30%;
+    animation: fall 2s infinite;
+}
+
+.inverno > .cinco{
+    right: 35%;
+    animation: fall 2.2s infinite;
+}
+
+.inverno > .seis{
+    right: 40%;
+    animation: fall 2.7s infinite;
+}
+
+.inverno > .sete{
+    right: 40%;
+    animation: fall 2.6s infinite;
+}
+
+.inverno > .oito{
+    right: 45%;
+    animation: fall 2s infinite;
+}
+
+.inverno > .nove{
+    right: 55%;
+    animation: fall 2.3s infinite;
+}
+
+.inverno > .dez{
+    right: 60%;
+    animation: fall 1.9s infinite;
+}
+
+.inverno > .onze{
+    right: 65%;
+    animation: fall 3s infinite;
+}
+
+.inverno > .doze{
+    right: 70%;
+    animation: fall 2.8s infinite;
+}
+
+.inverno > .treze{
+    right: 75%;
+    animation: fall 2.6s infinite;
+}
+
+.inverno > .quatorze{
+    right: 80%;
+    animation: fall 2.4s infinite;
+}
+
+.inverno > .quinze{
+    right: 85%;
+    animation: fall 3.1s infinite;
+}
+
+.inverno > .dezesseis{
+    right: 90%;
+    animation: fall 2.5s infinite;
+}
+
+.inverno > .dezessete{
+    right: 10%;
+    animation: fall 2.3s infinite;
+}
+
+.inverno > .dezoito{
+    right: 65%;
+    animation: fall 2.1s infinite;
+}
+
+.inverno > .dezenove{
+    right: 85%;
+    animation: fall 2.2s infinite;
+}
+
+.inverno > .vinte{
+    right: 40%;
+    animation: fall 1.2s infinite;
+}
+
+.inverno > .vinte-um{
+    right: 70%;
+    animation: fall 1s infinite;
+}
+
+.primavera > .neve{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    border-radius: 50%;
+    z-index: 3;
+    background-color: rgb(245, 137, 239);
+    animation: fall 5s infinite;
+}
+
+.primavera > .um{
+    right: 10%;
+    animation: fall 6s infinite;
+}
+
+.primavera > .dois{
+    right: 15%;
+    animation: fall 5.7s infinite;
+}
+
+.primavera > .tres{
+    right: 20%;
+    animation: fall 4.7s infinite;
+}
+
+.primavera > .quatro{
+    right: 25%;
+    animation: fall 4.9s infinite;
+}
+
+.primavera > .cinco{
+    right: 30%;
+    animation: fall 6.7s infinite;
+}
+
+.primavera > .seis{
+    right: 35%;
+    animation: fall 5.6s infinite;
+}
+
+.primavera > .sete{
+    right: 40%;
+    animation: fall 7.2s infinite;
+}
+
+.primavera > .oito{
+    right: 45%;
+    animation: fall 6.9s infinite;
+}
+
+
+
+
+
+@keyframes fall {
+    to{
+        top: 100%
+    }
+    from{
+        top: -2%;
+    }
+}

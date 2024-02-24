@@ -1,11 +1,60 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB 2</title>
+    <link rel="stylesheet" href="{% static 'newyear/styles.css' %}">
+
 </head>
-<body>
-    <h1>{{a}}</h1>
+<body class='padrao {{estacao}} {{horario}}'>
+
+    <div class="neve um"></div>
+    <div class="neve dois"></div>
+    <div class="neve tres"></div>
+    <div class="neve quatro"></div>
+    <div class="neve cinco"></div>
+    <div class="neve seis"></div>
+    <div class="neve sete"></div>
+    <div class="neve oito"></div>
+    <div class="neve nove"></div>
+    <div class="neve dez"></div>
+    <div class="neve onze"></div>
+    <div class="neve doze"></div>
+    <div class="neve treze"></div>
+    <div class="neve quatorze"></div>
+    <div class="neve quinze"></div>
+    <div class="neve dezesseis"></div>
+    <div class="neve dezessete"></div>
+    <div class="neve dezoito"></div>
+    <div class="neve dezenove"></div>
+    <div class="neve vinte"></div>
+    <div class="neve vinte-um"></div>
+
+    <div class="sol"></div>
+
+    <div class="estrela um"></div>
+    <div class="estrela dois"></div>
+    <div class="estrela tres"></div>
+    <div class="estrela quatro"></div>
+    <div class="estrela cinco"></div>
+    <div class="estrela seis"></div>
+    <div class="estrela seis"></div>
+    <div class="estrela sete"></div>
+    <div class="estrela oito"></div>
+    <div class="estrela nove"></div>
+    <div class="estrela dez"></div>
+    <div class="estrela onze"></div>
+
+
+    <div class="data">
+        <h2>{{data}}</h2>
+    </div>
+
+    <div class="horas">
+        <h2>{{horas}}</h2>
+    </div>
 </body>
 </html>
