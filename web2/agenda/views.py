@@ -5,5 +5,5 @@ from django.shortcuts import render
 def index(request):
     ...
 
-def contatos(request):
+def contatos(request, id):
     ...
