@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('newyear/', include("newyear.urls"))
+    path('newyear/', include("newyear.urls")),
+    path('agenda/', include("agenda.urls")) # Precisa indicar onde está o app criado aqui
 ]

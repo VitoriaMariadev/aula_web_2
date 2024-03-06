@@ -38,8 +38,7 @@ def index(resquest):
     else:
         horario = 'noite'
 
-    horario = 'tarde'
-    estacao = 'inverno'
+    estacao, horario = tempo_definido()
 
     return render(resquest, "newyear/index.html", {
         'estacao': estacao,
@@ -47,3 +46,8 @@ def index(resquest):
         'data': data,
         'horas': horas,
     })
+
+def tempo_definido():
+    horario = 'tarde'
+    estacao = 'primavera'
+    return estacao,horario

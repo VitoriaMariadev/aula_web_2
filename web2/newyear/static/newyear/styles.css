@@ -316,7 +316,50 @@ body{
     animation: fall 6.9s infinite;
 }
 
+.primavera > .nove{
+    right: 50%;
+    animation: fall 5.5s infinite;
+}
 
+.primavera > .dez{
+    right: 55%;
+    animation: fall 5.1s infinite;
+}
+
+.primavera > .onze{
+    right: 60%;
+    animation: fall 7.5s infinite;
+}
+
+.primavera > .doze{
+    right: 65%;
+    animation: fall 6.8s infinite;
+}
+
+.primavera > .treze{
+    right: 70%;
+    animation: fall 4.8s infinite;
+}
+
+.primavera > .quatorze{
+    right: 75%;
+    animation: fall 4.8s infinite;
+}
+
+.primavera > .quinze{
+    right: 80%;
+    animation: fall 5.2s infinite;
+}
+
+.primavera > .dezesseis{
+    right: 85%;
+    animation: fall 7.3s infinite;
+}
+
+.primavera > .dezesseis{
+    right: 90%;
+    animation: fall 7.3s infinite;
+}
 
 
 
