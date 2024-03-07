@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'agenda/styles.css' %}"> 
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Agenda telefonica</h1>
+    
+    {% if contato %}
+    <ul>
+        <li>{{nome}} - {{numero}}</li> 
+    </ul>
+
+    {% else %}
+
+    <h2>Não existe contatos cadastrados</h2>
+
+    {% endif %}
+
+    <h1>Nomes</h1>
+
+    <ul>
+        {% for pessoas in nomes %}
+
+        <li>{{pessoas}}</li>
+
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'agenda', # Lembra de escrever o nome do app aqui
     'newyear',
     'django.contrib.admin',
     'django.contrib.auth',
