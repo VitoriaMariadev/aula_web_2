@@ -286,7 +286,13 @@ No arquivo 'index.html':
 
 # Configurando um Super Usuário no Django:
 
-## Digite no terminal
+## Digite no terminal para adicionar as infomações ao BD
+
+```
+python.py manage.py migrate
+```
+
+## Digite no terminal para criar o usuário
 
 ```
 python manage.py createsuperuser
