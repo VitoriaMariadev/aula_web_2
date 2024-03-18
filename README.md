@@ -288,6 +288,6 @@ No arquivo 'index.html':
 
 ## Digite no terminal
 
-'''
+```
 python manage.py createsuperuser
-'''
+```
