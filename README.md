@@ -283,3 +283,11 @@ No arquivo 'index.html':
 </body>
 </html>
 ```
+
+# Configurando um Super Usuário no Django:
+
+## Digite no terminal
+
+'''
+python manage.py createsuperuser
+'''
